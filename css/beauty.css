@@ -1,0 +1,713 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+{
+    background: url(../img/fond.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.page
+{
+    width: 80%;
+    margin: auto;
+
+}
+
+.page .entete
+{
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+}
+
+.page .entete .entgauche
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 0%;
+    margin: 1%;
+}
+
+.page .entete .entgauche h1
+{
+    font-family: monospace;
+    font-size: 3.5rem;
+    color: rgba(3, 3, 22, 0.568);
+    text-shadow: 1rem 0rem 7px whitesmoke;
+    
+}
+.page  .entete .entgauche h2
+{
+    font-family: monospace;
+    font-size: 3rem;
+    color: rgba(9, 9, 70, 0.808);
+    text-shadow: 1rem 0rem 7px whitesmoke;
+    font-weight: bolder;
+    margin-top: 0%;
+}
+
+.page .entete .entdroit
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 0%;
+    margin-left: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.page .entete .entdroit p
+{
+    color: whitesmoke;
+    padding-left: 30%;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+
+.page .entete .entdroit h2
+{
+    color: whitesmoke;
+    padding-left: 10%;
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+.page .entete .entdroit h3
+{
+    color: orangered;
+    padding-left: 50%;
+    font-size: 1.5rem;
+    font-family: monospace;
+
+}
+
+.page h6
+{
+    width: 9%;
+    background-color: whitesmoke;
+    margin-left: 91%;
+    font-family: monospace;
+    font-size: 0.7rem;
+}
+
+.page nav
+{
+    background-color: rgb(55, 176, 221);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page nav a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 1rem;
+    border-right: solid rgba(0, 0, 0, 0.205);
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+
+.page .banier
+{
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    margin-top: 2%;
+    padding-top: 4%;
+    display: flex;
+    font-family: monospace;
+    height: 20%;
+}
+
+.page .banier .bargauche
+{
+    width: 40%;
+    text-align: right;
+    margin-top: 0%;
+    padding: 1%;
+    color: whitesmoke;
+}
+
+.page .banier .bargauche h5
+{
+    font-size: 130%;
+    font-family: monospace;
+    border-bottom: solid black;
+    padding: 0%;
+    margin: 3%;
+}
+
+.page .banier .bargauche h4
+{
+    font-size: 130%;
+    font-family: monospace;
+    color: rgb(190, 20, 92);
+    padding: 0%;
+    
+}
+
+.page .banier .bargauche p
+{
+    font-size: 1rem;
+    font-family: monospace;
+    margin: 3%;
+    color: rgb(55, 176, 221);
+}
+
+.page .banier .bardroit
+{
+    width: 75%;
+    padding: 1%;
+}
+
+.page .banier .bardroit img
+{
+    width: 100%;
+    height: 200px;
+}
+
+.page .corps
+{
+    display: flex;
+    padding: 0%;
+    font-family: monospace;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.page .corps .corpgauche
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+
+.page .corps .corpgauche .annonce
+{
+    width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 5%;
+  
+
+}
+
+.page .corps .corpgauche .annonce h1
+{
+    font-size: 1.5rem;
+
+}
+
+
+.page .corps .corpgauche .annonce ul li
+{
+    list-style: none;
+    color: rgb(55, 176, 221);
+    font-size: 1rem;
+    padding-bottom: 3%;
+}
+
+.page .corps .corpgauche .annonce1 
+{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    color: rgb(65, 65, 241);
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+.page .corps .corpgauche .annonce1 img
+{
+    width: 50%;
+    
+}
+
+.page .corps .corpgauche .annonce2
+{
+    width: 100%;
+    margin-bottom: 2%;
+
+
+}
+.page .corps .corpgauche .annonce2 img
+{
+    width: 100%;
+    height: 30%;
+}
+
+.page .corps .corpgauche .annonce3
+{
+    width: 100%;
+    background-image: url(../img/fond.jpg);
+    color: whitesmoke;
+    margin-top: 5%;
+}
+
+.page .corps .corpgauche .ann1 
+{
+    display: flex;
+    padding-top: 2%;
+}
+
+.page .corps .corpgauche .ann1 img
+{
+    width: 30%;
+}
+.page .corps .corpgauche .an p
+{
+   text-align: center;
+   color: whitesmoke;
+
+}
+
+
+
+.page .corps .corpdroit
+{
+    width: 60%;
+    margin-right: 10%;
+    background-color:rgba(65, 191, 241, 0.603) ;
+    
+}
+
+.page .corps .corpdroit h1
+{
+    color: rgb(190, 20, 92);
+    font-size: 3rem;
+}
+
+.page .corps .corpdroit p
+{
+    width: 70%;
+    height: 2%;
+    background-color:rgb(190, 20, 92) ;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+.page .corps .corpdroit .article h2
+{
+    font-size: 1.2rem;
+    width: 70%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-family: monospace;
+    border-bottom: solid rgba(0, 0, 0, 0.5);
+}
+
+.page .corps .corpdroit .articlee
+{
+    display: flex;
+    text-align: left;
+    height: 10%;
+    width: 100%;
+    font-family: monospace;
+    font-size: 1rem;
+    text-align:left;
+}
+
+.page .corps .corpdroit .articlee img
+{
+    border: solid whitesmoke;
+    margin-top: 2%;
+}
+
+.page .corps .corpdroit .art
+{
+    width: 100%;
+}
+
+.page .corps .corpdroit .art p
+{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0%;
+}
+
+.page .corps .corpdroit .art p i
+{
+    color:rgb(190, 20, 92) ;
+}
+
+
+.page .corps .corpdroit .article1
+{
+    padding: 0%;
+}
+.page .corps .corpdroit .art2
+{
+    display: flex;
+    margin: 0%;
+}
+
+.page .corps .corpdroit .article1 h1
+{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: normal;
+
+}
+
+.page .corps .corpdroit .article1 .art2 img
+{
+    display: flex;
+    border: solid whitesmoke;
+    width: 40%;
+    height: 5%;
+    margin-top: 10%;
+}
+
+
+.page .corps .corpdroit .art2 p
+{
+    background-color: transparent;
+    color: black;
+    font-size: 0.9rem;
+    padding-left: 3%;
+}
+
+.page .corps .corpdroit .art2 p i
+{
+    color:rgb(190, 20, 92) ;
+}
+
+.page .corps .corpdroit .article2
+{
+    
+}
+
+.page .corps .corpdroit .article2 h1
+{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-bottom: 2%;
+}
+
+.page .corps .corpdroit .article2 img
+{
+    width: 30%;
+    border: solid whitesmoke;
+    margin: auto;
+    height: 10%;
+}
+
+.page .corps .corpdroit .article3 img
+{
+    width: 20%;
+    border: solid whitesmoke;
+    margin: auto;
+    height: 10%;
+}
+
+.page .corps .corpdroit .article3 h1
+{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.page .pied
+{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+
+.page .pied h1{
+
+    color: whitesmoke;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+/*responsive*/
+
+@media screen and (max-width: 900px)
+{
+    .page
+    {
+        width: 90%;
+        margin: 0.5% auto;
+    }
+    .page .entete .entgauche h1 , .page .entete .entgauche h2
+    {
+        font-size: 1.5rem;
+    }
+
+    .page .entete .entdroit h2 
+    {
+        font-size: 0.5rem;
+    }
+
+    .page .entete .entdroit h3
+    {
+        font-size: 0.5rem;
+    }
+
+    .page .entete .entdroit p 
+    {
+        font-size: 0.5rem;
+    }
+
+    .page h6 {
+        width: 9%;
+        margin-left: 91%;
+        font-size: 0.3rem;
+    }
+
+    .page nav a
+    {
+        font-size: 0.5rem;
+        align-content:center;
+    }
+    .page .banier
+    {
+        height: 10%;
+    }
+    
+    .page .banier .bargauche h5
+    {
+        font-size: 1rem;
+    }
+
+    .page .banier .bargauche p
+    {
+        font-size: 0.5rem;
+    }
+
+    .text
+    {
+        font-size: 0.3rem;
+    }
+
+    .page .banier .bargauche h4 
+    {
+        font-size: 1rem;
+    }
+
+    .page .banier .bardroit img
+    {
+        height: 100px;
+    }
+
+    .page .corps
+    {
+       display: inline;
+    }
+    .page .corps .corpgauche
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 3%;
+        
+    }
+
+    .page .corps .corpgauche .annonce h1
+    {
+        font-size: 0.7rem;
+    
+    }
+
+    .page .corps .corpgauche .annonce ul li
+    {
+        font-size: 0.5rem;
+
+    }
+
+    .page .corps .corpgauche .annonce1 
+    {
+        width: 50%;
+        font-size: 0.5rem;
+        
+    }
+
+    .page .corps .corpgauche .annonce1 img
+    {
+        width: 50%;
+        height: 50px;
+    }
+
+    .page .corps .corpgauche .annonce2 img
+    {
+        width: 100%;
+        height: 91.7%;
+    }
+
+    .page .corps .corpgauche .annonce3
+    {
+        width: 200%;
+        margin-top: 0%;
+        padding-bottom: 0%;
+        height: 200px;
+        
+    }
+
+    .page .corps .corpgauche .ann1 h1
+    {
+        font-size: 1rem;
+    }
+
+    .page .corps .corpdroit
+    {
+        width: 100%;
+        margin: 0%;
+        z-index: 1;
+    }
+    .page .corps .corpdroit h1
+    {
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    .page .corps .corpdroit p
+    {
+        width: 70%;
+        height: 2%;
+        margin: 1% auto;
+        text-align: center;
+    }
+    
+    .page .corps .corpdroit .article h2
+    {
+        font-size: 1rem;
+    }
+    
+    .page .corps .corpdroit .articlee
+    {
+        font-size: 0.7rem;
+        text-align:left;
+        margin-left: 2%;
+        width: 70%;
+    }
+    
+    .page .corps .corpdroit .articlee img
+    {
+        width: 50%;
+        margin-left: 5%;
+    }
+    
+    .page .corps .corpdroit .art
+    {
+        width: 100%;
+    }
+    
+    .page .corps .corpdroit .art p
+    {
+        font-size: 0.7rem;
+        padding-top: 2%;
+    }
+    
+    .page .corps .corpdroit .article1 h1
+    {
+        font-size: 1rem;
+    }
+    
+    .page .corps .corpdroit .article1 .art2 img
+    {
+        width: 30%;
+        height: 5%;
+        margin-top: 1%;
+        margin-left: 2%;
+
+    }
+    
+    
+    .page .corps .corpdroit .art2 p
+    {
+
+        font-size: 0.6rem;
+   
+    }
+    
+
+    .page .corps .corpdroit .article2  img
+    {
+        width: 30%;
+        height: 5%;
+        margin-top: 1%;
+        margin-left: 2%;
+
+    }
+    .page .corps .corpdroit .article2 h1
+    {
+        font-size: 1rem;
+
+    }
+    
+
+    
+    .page .corps .corpdroit .article3 img
+    {
+        width: 30%;
+        margin-left: 3%;
+
+    }
+    
+    .page .corps .corpdroit .article3 h1
+    {
+        color: black;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    
+    
+    .page .pied h1{
+    
+        
+        font-size: 1.5rem;
+  
+    }
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
