@@ -447,7 +447,12 @@ body
 /*responsive*/
 
 @media screen and (max-width: 900px)
+
 {
+    body
+    {
+        background-size: cover;
+    }
     .page
     {
         width: 90%;
@@ -575,8 +580,8 @@ body
     .page .corps .corpdroit
     {
         width: 100%;
-        margin: 0%;
-        z-index: 1;
+        margin: 3% auto ;
+       
     }
     .page .corps .corpdroit h1
     {
@@ -596,20 +601,22 @@ body
     .page .corps .corpdroit .article h2
     {
         font-size: 1rem;
+        text-align: center;
     }
     
-    .page .corps .corpdroit .articlee
+    .page .corps .corpdroit .articlee 
     {
+        
         font-size: 0.7rem;
-        text-align:left;
+        text-align: left;
         margin-left: 2%;
-        width: 70%;
+       
     }
     
     .page .corps .corpdroit .articlee img
     {
-        width: 50%;
-        margin-left: 5%;
+        width: 30%;
+        margin-right: 5%;
     }
     
     .page .corps .corpdroit .art
